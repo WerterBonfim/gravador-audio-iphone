@@ -1,0 +1,14 @@
+<button id="btn-start-recording" [disabled]="desabilitarBtnGravacao" (click)="gravar()" >Start Recording</button>
+<button id="btn-stop-recording"  [disabled]="desabilitarBtnStop" (click)="parar()" disabled>Stop Recording</button>
+<button id="btn-play-recording"  [disabled]="desabilitarBtnPlay" (click)="play()" disabled>Play Recording</button>
+<br>
+<br>
+<button id="btn-play-file">Play File</button>
+<button id="btn-play-both" disabled>Play Both</button>
+
+<audio style="display: none" #audio controls>
+    
+</audio>
+
+
+
